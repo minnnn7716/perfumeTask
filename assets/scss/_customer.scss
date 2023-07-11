@@ -1,0 +1,55 @@
+body {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.container {
+  max-width: 1124px;
+}
+
+.pill-btn {
+  display: inline-block;
+  width: 350px;
+  padding: 8px 0;
+  border-radius: 30px;
+  border: 2px solid;
+  text-decoration: none;
+  text-align: center;
+  transition: all ease .3s;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  &-light {
+    font-size: 24px;
+    border-color: #fff;
+    color: #fff;
+
+    &:hover {
+      background-color: #ffffff4d;
+    }
+  }
+
+  &-dark {
+    font-size: 20px;
+    border-color: #000;
+    color: #000;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
